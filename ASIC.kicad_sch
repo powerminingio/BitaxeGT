@@ -6263,7 +6263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:BM1370"
+		(property "Footprint" "bitaxe:BM1370_JB"
 			(at 115.57 147.32 0)
 			(effects
 				(font
@@ -11795,7 +11795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:BM1370"
+		(property "Footprint" "bitaxe:BM1370_JB"
 			(at 219.71 147.32 0)
 			(effects
 				(font
