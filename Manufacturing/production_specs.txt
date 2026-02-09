@@ -1,0 +1,7 @@
+==== PCB production specifications ====
+
+PCB thickness: 1.6mm
+Surface finish: ENIG
+Mask color: Black
+Silkscreen color: White
+Layer thickness: 1oz

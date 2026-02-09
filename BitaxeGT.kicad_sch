@@ -10,6 +10,143 @@
 		(rev "801")
 	)
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim yes)
 			(in_bom no)
@@ -597,13 +734,13 @@
 		(uuid "0a1f1ab5-80a9-4e29-9980-51f3170a106a")
 	)
 	(junction
-		(at 71.12 167.64)
+		(at 57.15 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "171fc9b2-67cb-4e69-a29d-02f79eabe2b7")
 	)
 	(junction
-		(at 71.12 175.26)
+		(at 57.15 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "291f06b2-5ed5-4c48-85a4-3043030e111b")
@@ -621,29 +758,45 @@
 		(uuid "aca023c6-e72a-4c7f-b731-09ee1238ecca")
 	)
 	(junction
-		(at 71.12 160.02)
+		(at 57.15 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f62bc8c7-bab0-4780-8a58-60601d5c188a")
 	)
 	(no_connect
-		(at 119.38 189.23)
+		(at 107.95 172.72)
 		(uuid "04a6783a-fec6-4488-8222-5c26922ecc6b")
 	)
 	(no_connect
-		(at 119.38 186.69)
+		(at 107.95 170.18)
 		(uuid "14f9303c-c0ea-4dac-971d-05ce4b44ed83")
 	)
 	(no_connect
-		(at 119.38 191.77)
+		(at 135.89 173.99)
+		(uuid "16370cdf-e358-439e-864d-6b04ae66b34a")
+	)
+	(no_connect
+		(at 135.89 167.64)
+		(uuid "2fcbacb3-89e8-4a03-9d8c-042429f6ecda")
+	)
+	(no_connect
+		(at 135.89 154.94)
+		(uuid "4a96e334-9077-4fb2-8e26-3bbd7430537a")
+	)
+	(no_connect
+		(at 107.95 175.26)
 		(uuid "5e7b1b39-2dbe-4437-b20b-4c6541ef455a")
 	)
 	(no_connect
-		(at 119.38 181.61)
+		(at 107.95 165.1)
 		(uuid "a9192ec2-38dd-446a-9de8-9cb4c19610da")
 	)
 	(no_connect
-		(at 119.38 184.15)
+		(at 135.89 161.29)
+		(uuid "aeb2ef44-9707-4e82-8ccf-8a3e4ee1d7a0")
+	)
+	(no_connect
+		(at 107.95 167.64)
 		(uuid "eb0f73d5-7b56-41e8-99e3-efca7adb3a03")
 	)
 	(wire
@@ -698,7 +851,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 175.26) (xy 71.12 182.88)
+			(xy 57.15 175.26) (xy 57.15 182.88)
 		)
 		(stroke
 			(width 0)
@@ -708,7 +861,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 160.02) (xy 71.12 167.64)
+			(xy 57.15 160.02) (xy 57.15 167.64)
 		)
 		(stroke
 			(width 0)
@@ -798,7 +951,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 182.88) (xy 83.82 182.88)
+			(xy 57.15 182.88) (xy 69.85 182.88)
 		)
 		(stroke
 			(width 0)
@@ -888,7 +1041,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 152.4) (xy 71.12 152.4)
+			(xy 64.77 152.4) (xy 57.15 152.4)
 		)
 		(stroke
 			(width 0)
@@ -918,7 +1071,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 160.02) (xy 78.74 160.02)
+			(xy 57.15 160.02) (xy 64.77 160.02)
 		)
 		(stroke
 			(width 0)
@@ -948,7 +1101,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 175.26) (xy 78.74 175.26)
+			(xy 57.15 175.26) (xy 64.77 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +1271,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 152.4) (xy 71.12 160.02)
+			(xy 57.15 152.4) (xy 57.15 160.02)
 		)
 		(stroke
 			(width 0)
@@ -1148,7 +1301,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 167.64) (xy 71.12 175.26)
+			(xy 57.15 167.64) (xy 57.15 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1268,7 +1421,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 167.64) (xy 78.74 167.64)
+			(xy 57.15 167.64) (xy 64.77 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1287,7 +1440,7 @@
 		(uuid "0131a1f9-2b62-42cb-97a3-b7d046d38614")
 	)
 	(label "GND"
-		(at 80.01 182.88 180)
+		(at 66.04 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1408,7 +1561,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 83.82 182.88 0)
+		(at 69.85 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1418,7 +1571,7 @@
 		)
 		(uuid "169e0b1e-7f25-45c2-8e07-05c895ff55c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.6757 182.88 0)
+			(at 76.7057 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,7 +1605,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 160.02 270)
+		(at 67.31 160.02 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1461,7 +1614,7 @@
 		(fields_autoplaced yes)
 		(uuid "1626d1cb-ff0c-41e7-ad29-494f89fc2632")
 		(property "Reference" "H2"
-			(at 85.09 158.7499 90)
+			(at 71.12 158.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1623,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 85.09 161.2899 90)
+			(at 71.12 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1632,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 81.28 160.02 0)
+			(at 67.31 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +1641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 160.02 0)
+			(at 67.31 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1497,7 +1650,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 81.28 160.02 0)
+			(at 67.31 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1672,7 @@
 	)
 	(symbol
 		(lib_id "bitaxe:Heatsink")
-		(at 121.92 179.07 0)
+		(at 110.49 162.56 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1528,7 +1681,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b689995-7c98-4d53-90e0-5cfdabf79b83")
 		(property "Reference" "HS1"
-			(at 125.73 177.1014 0)
+			(at 114.3 160.5914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +1690,7 @@
 			)
 		)
 		(property "Value" "Heatsink"
-			(at 125.73 179.6414 0)
+			(at 114.3 163.1314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +1699,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:Heatsink-5hole-BitaxeGT"
-			(at 122.2248 179.07 0)
+			(at 110.7948 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1708,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 122.2248 179.07 0)
+			(at 110.7948 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +1717,7 @@
 			)
 		)
 		(property "Description" "Heatsink"
-			(at 121.92 179.07 0)
+			(at 110.49 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +1751,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 175.26 270)
+		(at 67.31 175.26 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1607,7 +1760,7 @@
 		(fields_autoplaced yes)
 		(uuid "24054009-b6b2-4eb2-9a19-7fb2369996dd")
 		(property "Reference" "H4"
-			(at 85.09 173.9899 90)
+			(at 71.12 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,7 +1769,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 85.09 176.5299 90)
+			(at 71.12 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,7 +1778,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 81.28 175.26 0)
+			(at 67.31 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1634,7 +1787,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 175.26 0)
+			(at 67.31 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1796,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 81.28 175.26 0)
+			(at 67.31 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,17 +1817,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 167.64 270)
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 140.97 167.64 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "559fe550-3979-49dc-a66d-262f501e565f")
-		(property "Reference" "H3"
-			(at 85.09 166.3699 90)
+		(uuid "24d58d01-a0d1-4e97-9295-cc11d5cd363e")
+		(property "Reference" "J9"
+			(at 143.51 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,8 +1835,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 85.09 168.9099 90)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 143.51 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,8 +1844,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 81.28 167.64 0)
+		(property "Footprint" "bitaxe:WA-SMSI_9774005360"
+			(at 140.97 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +1854,92 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 167.64 0)
+			(at 140.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT STEEL SPACER M3 thread"
+			(at 140.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "9774005360R"
+			(at 140.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 140.97 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "148ff57e-9a02-440b-9fa3-98bddd20ce06")
+		)
+		(instances
+			(project "BitaxeGT"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 67.31 167.64 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "559fe550-3979-49dc-a66d-262f501e565f")
+		(property "Reference" "H3"
+			(at 71.12 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 71.12 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 67.31 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +1948,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 81.28 167.64 0)
+			(at 67.31 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,17 +2070,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 44.45 158.75 0)
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 140.97 154.94 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6b5e4188-1e9d-4ba5-a145-a6a81e6d7127")
-		(property "Reference" "FID2"
-			(at 46.99 157.4799 0)
+		(uuid "6339f40a-1592-49a5-8b8a-21d2a3e6dd15")
+		(property "Reference" "J5"
+			(at 143.51 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,8 +2088,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 46.99 160.0199 0)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 143.51 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,8 +2097,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
-			(at 44.45 158.75 0)
+		(property "Footprint" "bitaxe:WA-SMSI_9774005360"
+			(at 140.97 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +2107,92 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 158.75 0)
+			(at 140.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT STEEL SPACER M3 thread"
+			(at 140.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "9774005360R"
+			(at 140.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 140.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb2114b6-24ae-4ced-8fdf-8c9c1a174779")
+		)
+		(instances
+			(project ""
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 30.48 162.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b5e4188-1e9d-4ba5-a145-a6a81e6d7127")
+		(property "Reference" "FID2"
+			(at 33.02 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 33.02 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
+			(at 30.48 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +2201,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 44.45 158.75 0)
+			(at 30.48 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,17 +2219,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 152.4 270)
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 140.97 161.29 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af4a3f97-37ad-4a2d-a684-e2f939dfc1da")
-		(property "Reference" "H1"
-			(at 85.09 151.1299 90)
+		(uuid "92ff92dc-3301-42e1-b6ba-a8a33f04abd8")
+		(property "Reference" "J6"
+			(at 143.51 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,8 +2237,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 85.09 153.6699 90)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 143.51 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,8 +2246,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 81.28 152.4 0)
+		(property "Footprint" "bitaxe:WA-SMSI_9774005360"
+			(at 140.97 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +2256,92 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 152.4 0)
+			(at 140.97 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT STEEL SPACER M3 thread"
+			(at 140.97 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "9774005360R"
+			(at 140.97 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 140.97 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8e5f193-685e-45e8-824f-17d2ea1ad222")
+		)
+		(instances
+			(project "BitaxeGT"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 67.31 152.4 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4a3f97-37ad-4a2d-a684-e2f939dfc1da")
+		(property "Reference" "H1"
+			(at 71.12 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 71.12 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 67.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +2350,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 81.28 152.4 0)
+			(at 67.31 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +2372,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 44.45 171.45 0)
+		(at 30.48 175.26 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -1973,7 +2381,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3f5c192-b088-4ada-8ff3-36d82ff2adb5")
 		(property "Reference" "FID4"
-			(at 46.99 170.1799 0)
+			(at 33.02 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,7 +2390,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 46.99 172.7199 0)
+			(at 33.02 176.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1991,7 +2399,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
-			(at 44.45 171.45 0)
+			(at 30.48 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,7 +2408,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 171.45 0)
+			(at 30.48 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,7 +2417,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 44.45 171.45 0)
+			(at 30.48 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +2436,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 44.45 152.4 0)
+		(at 30.48 156.21 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2037,7 +2445,7 @@
 		(fields_autoplaced yes)
 		(uuid "b91bfcc4-c4da-404b-8879-bad81dc0d2b2")
 		(property "Reference" "FID1"
-			(at 46.99 151.1299 0)
+			(at 33.02 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +2454,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 46.99 153.6699 0)
+			(at 33.02 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +2463,7 @@
 			)
 		)
 		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
-			(at 44.45 152.4 0)
+			(at 30.48 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,7 +2472,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 152.4 0)
+			(at 30.48 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +2481,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 44.45 152.4 0)
+			(at 30.48 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,17 +2499,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 44.45 165.1 0)
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 140.97 173.99 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb54600b-2c93-474f-822b-7bb587446d0c")
-		(property "Reference" "FID3"
-			(at 46.99 163.8299 0)
+		(uuid "c3692ceb-a468-4308-a2a2-ff7e5b5125c0")
+		(property "Reference" "J10"
+			(at 143.51 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,8 +2517,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 46.99 166.3699 0)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 143.51 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,8 +2526,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
-			(at 44.45 165.1 0)
+		(property "Footprint" "bitaxe:WA-SMSI_9774005360"
+			(at 140.97 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2536,92 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 165.1 0)
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WA-SMSI SMT STEEL SPACER M3 thread"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "9774005360R"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72f4ef09-9e42-41f3-916e-78e899ca21ce")
+		)
+		(instances
+			(project "BitaxeGT"
+				(path "/61fe8d2c-9301-4ad9-8caf-c47acfa835b0"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 30.48 168.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb54600b-2c93-474f-822b-7bb587446d0c")
+		(property "Reference" "FID3"
+			(at 33.02 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 33.02 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:Fiducial_1mm_Mask2mm"
+			(at 30.48 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2630,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 44.45 165.1 0)
+			(at 30.48 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

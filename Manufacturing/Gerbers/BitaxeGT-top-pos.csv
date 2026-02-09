@@ -1,0 +1,9 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"FID1","Fiducial","Fiducial_1mm_Mask2mm",107.200000,-147.900000,0.000000,top
+"FID2","Fiducial","Fiducial_1mm_Mask2mm",154.900000,-39.800000,0.000000,top
+"HS1","Heatsink","Heatsink-5hole-BitaxeGT",131.000000,-112.000000,0.000000,top
+"J3","Conn_01x04","PinHeader_1x04_P2.54mm_Vertical_shifted",148.000000,-40.550000,0.000000,top
+"J7","Conn_01x04","470531000",116.000000,-146.338851,180.000000,top
+"Logo","25mm","PM_logo_25mm",138.005981,-150.495332,0.000000,top
+"U9","BM1370_mode1","BM1370_JB",113.000000,-112.000000,0.000000,top
+"U10","BM1370_mode1","BM1370_JB",149.000000,-112.000000,0.000000,top
